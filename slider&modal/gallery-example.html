@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+        Чек ліст підключення:
+        1. Додати атрибути на кнопки в галереї
+        2. Додати верстку модального вікна
+        3. Підключити стилі модального вікна
+        4. Підключити скрипти бібліотек модального вікна та слайдеру
+        5. Підключити скрипт запуску  модального вікна та слайдеру
+        6. Змінити селектор для кнопок галереї у скрипті запуску
+        7. Підключити стилі слайдеру
+
+        По бажанню:
+        Змінити назву міста в модалці :)
+     -->
+
+    <!-- Початок вставки стилів слайдеру-->
+    <link href="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+        " rel="stylesheet">
+    <!-- Кінець вставки стилів слайдеру-->
+
+
+</head>
+
+<body>
+
+    <!-- Початок прикладу галереї -->
+
+    <div class="gallery">
+        <button data-micromodal-trigger="modal" class="gallery-modal-buton" data-index="0">
+            <img src="img/1.jpg" alt="" class="city-photo">
+        </button>
+        <button data-micromodal-trigger="modal" class="gallery-modal-buton" data-index="1">
+            <img src="img/2.jpg" alt="" class="city-photo">
+        </button>
+        <button data-micromodal-trigger="modal" class="gallery-modal-buton" data-index="2">
+            <img src="img/3.jpg" alt="" class="city-photo">
+        </button>
+    </div>
+
+    <!-- Кінець прикладу галереї -->
+
+
+    <!-- Початок вставки бібліотек молального вікна та галереї-->
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+
+    <script src="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+        "></script>
+
+    <!-- Кінець вставки бібліотек молального вікна та галереї-->
+
+</body>
+
+</html>
